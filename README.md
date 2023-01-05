@@ -15,16 +15,24 @@ https://dev.to/andiismail/express-js-jwt-1k2
 https://www.youtube.com/watch?v=VOkVQFC4HW4
 
 Express JWT
+
 Silakan buka terminal atau CMD dan lakukan langkah berikut :
 
 git clone https://github.com/andiks2018/JvalleyExpress-jwtPostman.git express_jwt2
+
 cd express_jwt2
+
 npm install
+
 Buat sebuah file dengan nama .env dan isi dengan :
 
+
 DATABASE_URL="file:./db.sqlite"
+
 PORT=8000
+
 SECRET_KEY="masukanSecretKeyKamuTerserahApaAja"
+
 Kembali ke terminal dan silakan push database dengan :
 
 npx prisma db push
